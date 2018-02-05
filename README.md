@@ -48,3 +48,5 @@ helper.test(myObject.someMethod(), expectedValue)
     - perimeter: 31.41592653589793
     - perimeter: 188.49555921538757
 
+---
+Copyright (c) 2018 ThoughtWorks. For personal use and training purposes only; not to be copied or distributed without further approval.
