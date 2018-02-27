@@ -8,7 +8,7 @@ Let's put our knowledge of classes to practice! In this assignment, you will cre
 - `cd` into directory
 - Follow the instructions listed below. if you wish, you can use the `assertEquals` function to write tests.
 ```javascript
-const assertEquals = require("./test-helper");
+var assertEquals = require("./test-helper");
 assertEquals(actualValue, expectedValue)
 assertEquals(myObject.myMethod(), expectedValue)
 ```
