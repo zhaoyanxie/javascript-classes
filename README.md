@@ -6,12 +6,24 @@ Let's put our knowledge of classes to practice! In this assignment, you will cre
 - Fork this repo
 - `git clone <repo-url>` 
 - `cd` into directory
-- Follow the instructions listed below. if you wish, you can use the `assertEquals` function to write tests.
-```javascript
-var assertEquals = require("./test-helper");
-assertEquals(actualValue, expectedValue)
-assertEquals(myObject.myMethod(), expectedValue)
+- Make this a yarn project: `yarn init`
+- Install jest: `yarn add --dev jest`
+- Update `package.json` to have test scripts:
+```json
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  ...
+  // add the following key-value pair
+  "scripts": {
+      "test": "jest",     
+      "test:watch": "jest --watch",
+      "test:coverage": "jest --coverage",
+  },
+  ...
+}
 ```
+- Now you're set to start TDD-ing! When you've written your first test, you can run the tests in watch mode by running `yarn test:watch`
 
 ### Instructions:
 
