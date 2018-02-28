@@ -56,7 +56,7 @@ Repeat these steps for `perimeter()`
 
 | radius | area() | perimeter() |
 |-|-|-|
-|1|3.14|6.3|
+|1|3.1|6.3|
 |2|12.6|12.6|
 |3|28.3|18.9|
 
