@@ -32,7 +32,7 @@ Let's put our knowledge of classes to practice! In this assignment, you will cre
 - in it, create a class named `Rectangle`, with the following properties in the constructor:
     - `breadth`
     - `length`
-- define a method named `area()` to return the area of the circle
+- define a method named `area()` to return the area of the rectangle
     - formula: area = `length * breadth`
     
 - instantiate the following rectangles one by one and verify that `area()` returns the expected values as stated below
