@@ -58,7 +58,7 @@ Repeat these steps for `perimeter()`
 |-|-|-|
 |1|3.1|6.3|
 |2|12.6|12.6|
-|3|28.3|18.9|
+|3|28.3|18.8|
 
 Repeat these steps for `perimeter()`
 - formula: perimeter = `2 * Math.PI * r`
