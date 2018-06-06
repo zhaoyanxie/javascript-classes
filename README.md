@@ -6,7 +6,7 @@ Let's put our knowledge of classes to practice! In this assignment, you will cre
 - Fork this repo
 - `git clone <repo-url>` 
 - `cd` into directory
-- Make this a yarn project: `npm init`
+- Make this a node project: `npm init`
 - Install jest: `npm install jest --save-dev`
 - Update `package.json` to have test scripts:
 ```json
