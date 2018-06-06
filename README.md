@@ -6,24 +6,21 @@ Let's put our knowledge of classes to practice! In this assignment, you will cre
 - Fork this repo
 - `git clone <repo-url>` 
 - `cd` into directory
-- Make this a yarn project: `yarn init`
-- Install jest: `yarn add --dev jest`
+- Make this a yarn project: `npm init`
+- Install jest: `npm install jest --save-dev`
 - Update `package.json` to have test scripts:
 ```json
 {
   "name": "my-project",
   "version": "1.0.0",
-  ...
-  // add the following key-value pair
   "scripts": {
       "test": "jest",     
       "test:watch": "jest --watch",
       "test:coverage": "jest --coverage",
   },
-  ...
 }
 ```
-- Now you're set to start TDD-ing! When you've written your first test, you can run the tests in watch mode by running `yarn test:watch`
+- Now you're set to start TDD-ing! When you've written your first test, you can run the tests in watch mode by running `npm run test:watch`
 
 ### Instructions:
 
