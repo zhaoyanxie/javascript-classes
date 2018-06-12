@@ -1,28 +1,12 @@
-# Javascript Classes
+# JavaScript Classes
 
-Let's put our knowledge of classes to practice! In this assignment, you will create javascript objects that model real life objects using classes as a blueprint
-
-### Getting Started
-- Fork this repo
-- `git clone <repo-url>` 
-- `cd` into directory
-- Make this a node project: `npm init`
-- Install jest: `npm install jest --save-dev`
-- Update `package.json` to have test scripts:
-```json
-{
-  "name": "my-project",
-  "version": "1.0.0",
-  "scripts": {
-      "test": "jest",     
-      "test:watch": "jest --watch",
-      "test:coverage": "jest --coverage",
-  },
-}
-```
-- Now you're set to start TDD-ing! When you've written your first test, you can run the tests in watch mode by running `npm run test:watch`
+Let's put our knowledge of classes to practice! In this assignment, you will
+create JavaScript objects that model real life objects using classes as a
+blueprint.
 
 ### Instructions:
+
+- Use `node` to run the JavaScript files created in the exercises below.
 
 #### 1. Model a Rectangle
 - create a file named `Rectangle.js`
@@ -31,8 +15,10 @@ Let's put our knowledge of classes to practice! In this assignment, you will cre
     - `length`
 - define a method named `area()` to return the area of the rectangle
     - formula: area = `length * breadth`
-    
-- instantiate the following rectangles one by one and verify that `area()` returns the expected values as stated below
+
+- instantiate the following rectangles one by one and verify that `area()`
+  returns the expected values as stated below
+  	- you can use `console.log` to log the results and verify them
 
 | breadth | length | area() | perimeter() |
 |-|-|-|-|
@@ -48,7 +34,7 @@ Repeat these steps for `perimeter()`
     - `radius`
 - define a method named `area()` to return the area of the circle
     - formula: area = `Math.PI * r ** 2`
-    - hint: look up [the javascript Math object docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) to find out how to round a number to 1 decimal place (MDN calls this a 'single precision float')
+    - hint: look up [the JavaScript Math object docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) to find out how to round a number to 1 decimal place (MDN calls this a 'single precision float')
 - instantiate the following circles one by one and verify that `area()` returns the expected values as stated below
 
 | radius | area() | perimeter() |
@@ -70,7 +56,7 @@ Repeat these steps for `perimeter()`
     - `calculator.subtract(n)`
     - `calculator.multiply(n)`
     - `calculator.divide(n)`
-- Implementation logic for each method: 
+- Implementation logic for each method:
     - take in **one** argument (`n`)
     - use `n` to update the value of `this.value`
     - return `this` so that we can chain methods (example: `calculator.add(12).multiply(2).divide(2)`)
